@@ -1,5 +1,5 @@
 body {
-  color: black;
+  background-color: rgb(85, 107, 47, 0.1);
 }
 p {
   font-size: 1em;
@@ -7,6 +7,26 @@ p {
 p.highlighted {
   font-size: 1.5em;
   background: yellow;
+}
+
+.btn {
+  color: #fff;
+}
+
+.btn-sm {
+  padding: 5px 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+.btn-primary {
+  background-color: #428bca;
+  border-color: #357ebd;
 }
 
 .nav-spacing {
