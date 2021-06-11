@@ -4,7 +4,7 @@ body {
   font-size: 12px;
   margin-right: auto;
   margin-left: auto;
-  max-width: 1980px;
+  max-width: 2650px;
 }
 
 
@@ -23,7 +23,7 @@ body {
 .nav-title h1 {
   position: fixed; 
   margin: 0px; 
-  line-height: 1.65em;
+  line-height: 1.5em;
 }
 
 .nav-title a {
@@ -39,10 +39,8 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
-  background-color: #ca4742;
+  background-color: Black;
   border-color: Black;
-  /* background-color: black;
-  border-color: black; */
   padding: 5px 10px;
     padding-top: 5px;
     padding-right: 10px;
@@ -50,31 +48,36 @@ body {
     padding-left: 10px;
   font-size: 1.2em;
   line-height: 2;
-  /* border-style: double; */
   border-radius: 3px;
   margin-left: 20px;
 }
 
+.lighten {
+  opacity: 0.8;
+}
+
 .nav-icons a:hover {
-  color: black;
+  color: lighten(red, 50%);
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/open_for_business.jpg);
-
-  /* Set a specific height */
-  height: 50%;
-
-  /* Position and center the image to scale nicely on all screens */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/open_for_business.jpg");
+  height: 800px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
-.h-class {
-  margin-top: 75px; 
+.h-class-top {
+  margin-top: 40px; 
   margin-left: 20px;
+}
+
+.h-class-bottom {
+  margin-top: 40px; 
+  margin-left: 20px;
+  padding-bottom: 200px;
 }
 
 .image-wrapper1 {
@@ -100,10 +103,10 @@ body {
 }
 
 .images img {
-  width: 200px;
-  height: 200px;
+  max-width: 200px;
+  max-height: 200px;
   margin-top: 5px;
-  box-shadow: 3px 0px 10px rgb(0 0 0 / 50%);
+  /* box-shadow: 3px 0px 10px rgb(0 0 0 / 50%); */
 }
 
 .images img:hover {
@@ -128,11 +131,12 @@ body {
 .footer {
   position: fixed;
   left: 0;
-  bottom: 0;
+  bottom: 0px;
   width: 100%;
   background-color: #F1F3F3;
   color: black;
   text-align: center;
+  /* padding-top: 50px; */
 }
 
 .page-menu {
