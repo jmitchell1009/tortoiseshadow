@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>tortoiseshadow</title>
   <link rel="stylesheet" href="css/main.css">
+  <script>src="main.js"</script>
 </head>
 <body>
 
@@ -19,7 +20,28 @@
     </div>
   </div>
 
-  <div style="margin-top: 75px;">
-    <h1>Well, well, what have we "contacted" here?</h1>
+  <div style="margin-top: 140px; margin-bottom: 50px;">
+    <h1 style="text-align: center">We want to hear from you!</h1>
   </div>
+  
+  <!-- What is Contact From 7? -->
+<div style="text-align: center;">
+  <form onsubmit="return false">
+  </form>
+  <input type="text" size="30" placeholder="LAST NAME" id="lastName" />
+  <br><br><br>
+  <input type="text" size="30" placeholder="FIRST NAME" id="firstName" />
+  <br><br><br>
+  <input type="email" size="30" placeholder="EMAIL" id="email" />
+  <br><br><br>
+  <input type="text" size="10" placeholder="ZIP CODE" id="zipCode" />
+  <br><br><br>
+
+  <input type="password" size="22" placeholder="ENTER PASSWORD" id="password" >&nbsp;&nbsp;&nbsp;
+  <input type="password" size="22" placeholder="RE-ENTER PASSWORD" id="passwordCheck" />
+  <br><br><br>
+
+  <button onclick="sendContact();">Submit</button>
+</div>
+
 </body>
